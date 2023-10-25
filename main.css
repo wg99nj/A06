@@ -1,0 +1,37 @@
+/* Style for h2 in the header */
+header h2 {
+    font-size: 170%;
+    color: #800000;
+    text-indent: 30px;
+}
+
+/* Style for h3 in the header */
+header h3 {
+    font-size: 130%;
+    font-style: italic;
+    text-indent: 30px;
+}
+/* Style for links on focus or hover */
+a:focus, a:hover {
+    font-style: italic;
+}
+/* Center the <p> tag in the footer */
+footer p {
+    text-align: center;
+}
+/* Style for text shadow on the "75th" text */
+/* Style for text shadow with #800000 color */
+.shadow {
+    text-shadow: 2px 2px 2px var(--global-color-1);
+}
+
+}
+/* Define the custom property for the root element */
+:root {
+    --global-color-1: #800000;
+}:root {
+     --global-color-1: #4d0080;
+ }
+:root {
+    --global-color-1: #800000;
+}
